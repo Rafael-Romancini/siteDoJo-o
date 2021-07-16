@@ -1,0 +1,751 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    width: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #303030;
+}
+
+.logres{
+    display: inline-block;
+    vertical-align: 20px;
+    margin: 0px 50px;
+    display: flex;
+}
+
+.hlogres{
+    display: inline-block;
+    width: fit-content;
+    margin: 20px 5px 0px 5px;
+
+}
+
+.header{
+    display: flex;
+    padding: 30px;
+    background-color: #303030;
+    justify-content: space-between;
+
+}
+
+.menu{
+    font-size: 2.6em;
+    color: #48CAE4;
+}
+
+.menu:hover{
+    color: #41afc5;
+}
+
+.sidebar{
+    display: flex;
+    position: fixed;
+    background-color: transparent;
+    height: 100vh;
+    right: 97vw;
+    padding-top: 8vh;
+    padding-left: 20vw;
+}
+
+.sidebarlogin{
+    display: flex;
+    position: fixed;
+    background-color: transparent;
+    height: 100vh;
+    right: 98vw;
+    padding-top: 8vh;
+    padding-left: 20vw;
+}
+
+.sidebarlogin:hover{
+    right: 85vw;
+    background-color: #484848;
+    transition: 1000ms;
+}
+
+.sidebarlogin:not(:hover){
+    right: 98vw;
+    transition: 1000ms;
+}
+
+.departamentos{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.seta{
+    text-align: right;
+    padding: 10px 0px;
+    margin: 0px 1vw 0px 0px;
+    color: white;
+    font-size: 0.8em;
+}
+
+.sidebar:hover{
+    right: 85vw;
+    background-color: #484848;
+    transition: 1000ms;
+}
+
+.sidebar:not(:hover){
+    right: 97vw;
+    transition: 1000ms;
+}
+
+
+.seta:hover{
+    color: #484848;
+    transition: 1000ms;
+
+}
+
+.seta:not(:hover){
+    color: white;
+    transition: 1000ms;
+
+}
+
+.item{
+    padding: 10px 50px;
+    margin: 0px;
+}
+
+.itemh{
+    color: #FFFFFF;
+}
+
+.itemh:hover{
+    color: #303030;
+}
+
+.loginheader{
+    color: #48CAE4;
+}
+
+.loginheader:hover{
+    filter: drop-shadow(0px 1px 0px #FFFFFF);
+}
+
+.loginheader:active{
+    vertical-align: 0px;
+    color: #41afc5;
+    filter: none;
+}
+
+.registrarheader{
+    color: #48CAE4;
+}
+
+.registrarheader:hover{
+    filter: drop-shadow(0px 1px 0px #FFFFFF);
+}
+
+.registrarheader:active{
+    color: #41afc5;
+    filter: none;
+}
+
+.barra{
+    color: #48CAE4;
+}
+
+.carrinho{
+    color: #303030;
+    padding: 10px 5px 0px 10px;
+}
+
+.carrinhoh{
+    width: fit-content;
+    display: flex;
+    margin: 0px 10px;
+    padding: 10px 10px 0px 10px;
+    border-radius: 0.7em;
+    background-color: green;
+}
+
+.carrinhoh:hover{
+    filter: drop-shadow(0px 4px 0px rgb(1, 97, 1));
+    transition: 200ms;
+
+}
+
+.carrinhoh:not(:hover){
+    filter: none;
+    transition: 200ms;
+}
+
+.carrinhoh:active{
+    background-color: rgb(1, 97, 1);
+    filter: none;
+}
+
+.cartimg{
+    width: 40px;
+    height: 40px;
+}
+
+.logo{
+    width: 15em;
+    height: 4em;
+    display: inline-block;
+}
+
+.logofooter{
+    width: 15em;
+    height: 4em;
+    display: inline-block;
+    margin: 50px 0px 0px 0px;
+}
+
+.infosfooter{
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+
+.search{
+    display: inline-block;
+    outline: 0; 
+    border-radius: 3em;
+    width: 40%;
+    padding: 0px 20px;
+    border: none;
+    margin: 0px 40px;
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+    border-color: #48CAE4;
+    font-size: 0.9em;
+}
+
+.search:active{
+    border-color: #37a2b8;
+
+}
+
+.search:focus{
+    background-color: rgba(0, 0, 0, 0.25);
+    
+}
+
+.img{
+    width: 100%;
+    background-color: #48CAE4;
+    margin:0px;
+    border-radius: 3rem;
+}
+
+.infos{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0px 0px 0px;
+}
+
+.product{
+    display: inline-block;
+    width: 40%;
+    padding:2%;
+}
+
+.desc{
+    display: block;
+    margin-left: 50px;
+    color: white;
+}
+
+.footerproduto{
+    display: flex;
+    text-align: left;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+}
+
+.h{
+    color: white;
+}
+
+.hbold{
+    color: white;
+    font-weight: bolder;
+
+}
+
+.buy{
+    padding: 15px;
+    background-color: green;
+    border-radius: 1rem;
+    color: #303030;
+}
+
+.buy:hover{
+    filter: drop-shadow(0px 4px 0px rgb(1, 97, 1));
+    transition: 100ms;
+}
+
+.buy:not(:hover){
+    filter: none;
+    transition: 200ms;
+}
+
+.buyh{
+    display: inline-block;
+    margin: 20px 0px 20px 0px;
+}
+
+.buyh:hover{
+    margin: 16px 0px 24px 0px;
+    transition: 200ms;
+}
+
+.buyh:not(:hover){
+    transition: 200ms;
+    margin: 20px 0px 20px 0px;
+}
+
+.buy:active{
+    background-color: rgb(1, 97, 1);
+    filter: none;
+}
+
+.buyh:active{
+    margin: 20px 0px 20px 0px;
+    
+}
+
+.price{
+    color: green;
+    font-size: 3rem;
+    padding: 60px 0px 0px 0px;
+}
+
+.estoque{
+    padding: 0px 0px 0px 0px;
+    font-size: 2rem;
+}
+
+.name{
+    font-size: 4rem;
+    padding: 0px 0px 0px 0px;
+}
+
+.href{
+    text-decoration: none;
+}
+
+.infoslogin{
+    background-color: #48CAE4;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 123px 20px;
+    width: 20%;
+    border-radius: 2rem;
+    vertical-align: top;
+}
+
+.titlelogin{
+    margin: 21px 0px 11px 0px;
+}
+
+.inputlogin{
+    outline: 0; 
+    border-radius: 0.6rem;
+    width: 70%;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px 0px 10px 0px;
+}
+
+.inputlogin:focus{
+    filter: drop-shadow(0px 4px 0px #999999);
+    transition: 100ms;
+    margin: 6px 0px 14px 0px;
+    transition: 200ms;
+}
+
+.inputlogin:not(:focus){
+    margin: 10px 0px 10px 0px;
+    transition: 200ms;
+}
+
+.page{
+    text-align: center;
+}
+
+.logar{
+    display: inline-block;
+    font-size: 1.3rem;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 1rem;
+    color: #48CAE4;
+    margin: 0px 0px 0px 0px;
+}
+
+.logar:hover{
+    filter: drop-shadow(0px 4px 0px #999999);
+    transition: 100ms;
+}
+
+.logar:not(:hover){
+    filter: none;
+    transition: 200ms;
+}
+
+.logarh{
+    display: inline-block;
+    margin: 20px 0px 20px 0px;
+}
+
+.logarh:hover{
+    margin: 16px 0px 24px 0px;
+    transition: 200ms;
+}
+
+.logarh:not(:hover){
+    margin: 20px 0px 20px 0px;
+    transition: 200ms;
+}
+
+.logar:active{
+    background-color: rgb(200, 200, 200);
+    filter: none;
+}
+
+.logarh:active{
+    margin: 20px 0px 20px 0px;
+    
+}
+
+.infosregistro{
+    background-color: #48CAE4;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 123px 20px;
+    width: 40%;
+    height: 55rem;
+    border-radius: 2rem;
+    vertical-align: top;
+}
+
+.inputregistro{
+    display: inline-block;
+    outline: 0; 
+    border-radius: 0.6rem;
+    width: 80%;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px 0px 10px 0px;
+}
+
+.inputregistro:focus{
+    filter: drop-shadow(0px 4px 0px #999999);
+    transition: 100ms;
+    margin: 6px 0px 14px 0px;
+    transition: 200ms;
+}
+
+.inputregistro:not(:focus){
+    margin: 10px 0px 10px 0px;
+    transition: 200ms;
+}
+
+.page{
+    text-align: center;
+}
+
+.registrar{
+    font-size: 1.3rem;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 1rem;
+    color: #48CAE4;
+    margin: 10px 0px 0px 0px;
+}
+
+.registrar:hover{
+    filter: drop-shadow(0px 4px 0px #999999);
+    transition: 100ms;
+}
+
+.registrar:not(:hover){
+    filter: none;
+    transition: 200ms;
+}
+
+.registrarh{
+    display: inline-block;
+    margin: 20px 0px 20px 0px;
+}
+
+.registrarh:hover{
+    margin: 16px 0px 24px 0px;
+    transition: 200ms;
+}
+
+.registrarh:not(:hover){
+    transition: 200ms;
+    margin: 20px 0px 20px 0px;
+}
+
+.registrar:active{
+    background-color: rgb(200, 200, 200);
+    filter: none;
+}
+
+.registrar:active{
+    margin: 20px 0px 20px 0px;
+    
+}
+
+.titleregistro{
+    margin: 21px 0px 11px 0px;
+
+}
+
+.hl{
+    display: block;
+    margin: 50px 0px 0px 0px;
+}
+
+.hlimg{
+    display: block;
+    width: 98%;
+    height: 38rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.otherproducts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pdimg{
+    display: inline-block;
+    margin: 50px 40px;
+    border-radius: 3rem;
+}
+
+.footermain{
+    display: flex;
+    text-align: left;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+}
+
+.footerprodutos{
+    display: flex;
+    text-align: left;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+    margin-top: 43vh;
+}
+
+.footercarrinho{
+    display: flex;
+    text-align: left;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+    margin: 60vh 0px 0px 0px;
+}
+
+.pdscarrinho{
+    display: inline-block;
+    width: fit-content;
+    margin: 0px 0px;
+}
+
+.pd{
+    display: inline-block;
+    border-radius: 3rem;
+    margin: 0px 0px 0px 0px;
+    width: 102%;
+}
+
+.qtd{
+    display: inline-block;
+    outline: 0; 
+    border-radius: 0.6rem;
+    width: 50px;
+    padding: 10px 20px;
+    border: none;
+    vertical-align: 105px;
+}
+
+.nomepdcarrinho{
+    display: inline-block;
+    color: #FFFFFF;
+    margin: 20px 90px;
+    vertical-align: 100px;
+}
+
+
+.nomepd{
+    display: inline-block;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.nomepd:hover{
+    color: #999999;
+}
+
+.nomepda{
+    height: fit-content;
+}
+
+.X{
+    display: inline-block;
+    color: #FFFFFF;
+    vertical-align: 100px;
+    margin: 0px 50px 0px 0px;
+    font-weight: bolder;
+}
+
+.pricepdcarrinho{
+    display: inline-block;
+    color: green;
+    margin: 20px 90px;
+    vertical-align: 100px;
+}
+
+.pricepd{
+    color: green;
+    margin: 0vh 0px;
+}
+
+.X:hover{
+    filter: drop-shadow(0px 1px 0px #999999);
+    transition: 0ms;
+    vertical-align: 101px;
+}
+
+.X:not(:hover){
+    filter: none;
+    vertical-align: 100px;
+    transition: 200ms;
+}
+
+.X:active{
+    color: rgb(200, 200, 200);
+    filter: none;
+    vertical-align: 100px;
+}
+
+.qtd:focus{
+    filter: drop-shadow(0px 4px 0px #999999);
+    vertical-align: 109px;
+    transition: 200ms;
+}
+
+.qtd:not(:focus){
+    filter: none;
+    vertical-align: 105px;
+    transition: 200ms;
+}
+
+.nomepdcarrinho:hover{
+    color: #999999;
+}
+
+.calc{
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin: 0px 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.sub{
+    word-spacing: 100px;
+}
+
+.total{
+    word-spacing: 100px;
+}
+
+.fin{
+    padding: 13px 15px 15px 15px;
+    background-color: green;
+    border-radius: 1rem;
+    color: #303030;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.fin:hover{
+    filter: drop-shadow(0px 4px 0px rgb(1, 97, 1));
+    transition: 100ms;
+}
+
+.fin:not(:hover){
+    filter: none;
+    transition: 200ms;
+}
+
+.fin:active{
+    background-color: rgb(1, 97, 1);
+    filter: none;
+    transition: 200ms;
+}
+
+.finh{
+    display: inline-block;
+    margin: 10px 0px 10px 0px;
+    width: fit-content;
+}
+
+.finh:hover{
+    margin: 10px 0px 10px 0px;
+    transition: 200ms;
+}
+
+.finh:not(:hover){
+    margin: 10px 0px 10px 0px;
+    transition: 200ms;
+}
+
+.finh:active{
+    margin: 10px 0px 10px 0px;
+    transition: 200ms;
+}
+
+.hrr{
+    margin: 0px;
+}
+
+.listadeprodutos{
+    margin: 5vh 0vw;
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.namepricelist{
+    list-style: none;
+    margin: 0vh;
+    text-align: left;
+    padding: 0px;
+    font-size: 0.9em;
+}
+
+.produtodalista{
+    width: 15vw;
+    padding: 0px 10px;
+}
+
+.cf{
+    color: green;
+    display: block;
+    text-align: center;
+    padding: 20vh 0px 50vh 0px;
+    font-size: 5em;
+}
