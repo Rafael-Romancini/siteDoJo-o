@@ -1,0 +1,450 @@
+
+
+
+
+
+
+.menu{
+    font-size: 2.6em;
+    color: #48CAE4;
+}
+
+.menu:hover{
+    color: #41afc5;
+}
+
+
+
+.sidebarlogin{
+    display: flex;
+    position: fixed;
+    background-color: transparent;
+    height: 100vh;
+    right: 98vw;
+    padding-top: 8vh;
+    padding-left: 20vw;
+}
+
+.sidebarlogin:hover{
+    right: 85vw;
+    background-color: #484848;
+    transition: 1000ms;
+}
+
+.sidebarlogin:not(:hover){
+    right: 98vw;
+    transition: 1000ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.barra{
+    color: #48CAE4;
+}
+
+
+
+
+
+
+.logofooter{
+    width: 15em;
+    height: 4em;
+    display: inline-block;
+    margin: 50px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+.footerproduto{
+    display: flex;
+    text-align: left;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+.infoslogin{
+    background-color: #48CAE4;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 123px 20px;
+    width: 20%;
+    border-radius: 2rem;
+    vertical-align: top;
+}
+
+.titlelogin{
+    margin: 21px 0px 11px 0px;
+}
+
+.inputlogin{
+    outline: 0; 
+    border-radius: 0.6rem;
+    width: 70%;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px 0px 10px 0px;
+}
+
+.inputlogin:focus{
+    filter: drop-shadow(0px 4px 0px #999999);
+    transition: 100ms;
+    margin: 6px 0px 14px 0px;
+    transition: 200ms;
+}
+
+.inputlogin:not(:focus){
+    margin: 10px 0px 10px 0px;
+    transition: 200ms;
+}
+
+
+
+.logar{
+    display: inline-block;
+    font-size: 1.3rem;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 1rem;
+    color: #48CAE4;
+    margin: 0px 0px 0px 0px;
+}
+
+.logar:hover{
+    filter: drop-shadow(0px 4px 0px #999999);
+    transition: 100ms;
+}
+
+.logar:not(:hover){
+    filter: none;
+    transition: 200ms;
+}
+
+.logarh{
+    display: inline-block;
+    margin: 20px 0px 20px 0px;
+}
+
+.logarh:hover{
+    margin: 16px 0px 24px 0px;
+    transition: 200ms;
+}
+
+.logarh:not(:hover){
+    margin: 20px 0px 20px 0px;
+    transition: 200ms;
+}
+
+.logar:active{
+    background-color: rgb(200, 200, 200);
+    filter: none;
+}
+
+.logarh:active{
+    margin: 20px 0px 20px 0px;
+    
+}
+
+.infosregistro{
+    background-color: #48CAE4;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 123px 20px;
+    width: 40%;
+    height: 55rem;
+    border-radius: 2rem;
+    vertical-align: top;
+}
+
+.inputregistro{
+    display: inline-block;
+    outline: 0; 
+    border-radius: 0.6rem;
+    width: 80%;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px 0px 10px 0px;
+}
+
+.inputregistro:focus{
+    filter: drop-shadow(0px 4px 0px #999999);
+    transition: 100ms;
+    margin: 6px 0px 14px 0px;
+    transition: 200ms;
+}
+
+.inputregistro:not(:focus){
+    margin: 10px 0px 10px 0px;
+    transition: 200ms;
+}
+
+
+
+.registrar{
+    font-size: 1.3rem;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 1rem;
+    color: #48CAE4;
+    margin: 10px 0px 0px 0px;
+}
+
+.registrar:hover{
+    filter: drop-shadow(0px 4px 0px #999999);
+    transition: 100ms;
+}
+
+.registrar:not(:hover){
+    filter: none;
+    transition: 200ms;
+}
+
+.registrarh{
+    display: inline-block;
+    margin: 20px 0px 20px 0px;
+}
+
+.registrarh:hover{
+    margin: 16px 0px 24px 0px;
+    transition: 200ms;
+}
+
+.registrarh:not(:hover){
+    transition: 200ms;
+    margin: 20px 0px 20px 0px;
+}
+
+.registrar:active{
+    background-color: rgb(200, 200, 200);
+    filter: none;
+}
+
+.registrar:active{
+    margin: 20px 0px 20px 0px;
+    
+}
+
+.titleregistro{
+    margin: 21px 0px 11px 0px;
+
+}
+
+
+
+.footerprodutos{
+    display: flex;
+    text-align: left;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+    margin-top: 43vh;
+}
+
+.footercarrinho{
+    display: flex;
+    text-align: left;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+    margin: 60vh 0px 0px 0px;
+}
+
+.pdscarrinho{
+    display: inline-block;
+    width: fit-content;
+    margin: 0px 0px;
+}
+
+
+
+.qtd{
+    display: inline-block;
+    outline: 0; 
+    border-radius: 0.6rem;
+    width: 50px;
+    padding: 10px 20px;
+    border: none;
+    vertical-align: 105px;
+}
+
+.nomepdcarrinho{
+    display: inline-block;
+    color: #FFFFFF;
+    margin: 20px 90px;
+    vertical-align: 100px;
+}
+
+
+
+
+
+
+.X{
+    display: inline-block;
+    color: #FFFFFF;
+    vertical-align: 100px;
+    margin: 0px 50px 0px 0px;
+    font-weight: bolder;
+}
+
+.pricepdcarrinho{
+    display: inline-block;
+    color: green;
+    margin: 20px 90px;
+    vertical-align: 100px;
+}
+
+
+
+.X:hover{
+    filter: drop-shadow(0px 1px 0px #999999);
+    transition: 0ms;
+    vertical-align: 101px;
+}
+
+.X:not(:hover){
+    filter: none;
+    vertical-align: 100px;
+    transition: 200ms;
+}
+
+.X:active{
+    color: rgb(200, 200, 200);
+    filter: none;
+    vertical-align: 100px;
+}
+
+.qtd:focus{
+    filter: drop-shadow(0px 4px 0px #999999);
+    vertical-align: 109px;
+    transition: 200ms;
+}
+
+.qtd:not(:focus){
+    filter: none;
+    vertical-align: 105px;
+    transition: 200ms;
+}
+
+.nomepdcarrinho:hover{
+    color: #999999;
+}
+
+.calc{
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin: 0px 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.sub{
+    word-spacing: 100px;
+}
+
+.total{
+    word-spacing: 100px;
+}
+
+.fin{
+    padding: 13px 15px 15px 15px;
+    background-color: green;
+    border-radius: 1rem;
+    color: #303030;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.fin:hover{
+    filter: drop-shadow(0px 4px 0px rgb(1, 97, 1));
+    transition: 100ms;
+}
+
+.fin:not(:hover){
+    filter: none;
+    transition: 200ms;
+}
+
+.fin:active{
+    background-color: rgb(1, 97, 1);
+    filter: none;
+    transition: 200ms;
+}
+
+.finh{
+    display: inline-block;
+    margin: 10px 0px 10px 0px;
+    width: fit-content;
+}
+
+.finh:hover{
+    margin: 10px 0px 10px 0px;
+    transition: 200ms;
+}
+
+.finh:not(:hover){
+    margin: 10px 0px 10px 0px;
+    transition: 200ms;
+}
+
+.finh:active{
+    margin: 10px 0px 10px 0px;
+    transition: 200ms;
+}
+
+.hrr{
+    margin: 0px;
+}
+
+
+
+.namepricelist{
+    list-style: none;
+    margin: 0vh;
+    text-align: left;
+    padding: 0px;
+    font-size: 0.9em;
+}
+
+.produtodalista{
+    width: 15vw;
+    padding: 0px 10px;
+}
+
+.cf{
+    color: green;
+    display: block;
+    text-align: center;
+    padding: 20vh 0px 50vh 0px;
+    font-size: 5em;
+}
